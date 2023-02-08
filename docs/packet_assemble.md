@@ -1,5 +1,5 @@
 ---
 layout: default
-title: IEEE C37.118 Summary
+title: Assemble Packet
 nav_order: 4
 ---
