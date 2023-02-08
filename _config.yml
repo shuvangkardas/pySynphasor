@@ -11,10 +11,12 @@
 #   - jekyll-default-layout
 
 # theme: "just-the-docs"
+
+
 remote_theme: pmarsceill/just-the-docs
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "/projects" #  the subpath of your site, e.g. /blog
+title: "pySynhasor"
+description: "IEEE C35.118 packet manipulation tool pySynphasor Documentation"
+# baseurl: "/projects/pysynphasor" #  the subpath of your site, e.g. /blog
 url: "https://shuvangkardas.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
