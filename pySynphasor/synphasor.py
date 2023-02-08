@@ -1,6 +1,6 @@
 from scapy.all import *
-import  crc
-from zlib import crc32
+import  pySynphasor.crc as crc
+# from zlib import crc32
 
 ############C37.118.2 Common Frame#############
 #Packet Type
