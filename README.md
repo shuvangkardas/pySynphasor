@@ -13,3 +13,6 @@ from pySynphasor.synphasor import *
 ```
 
 Then start using the library. 
+
+
+The detailed documentation of the project is [Here](https://shuvangkardas.com/pySynphasor/)
