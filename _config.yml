@@ -14,8 +14,8 @@
 remote_theme: pmarsceill/just-the-docs
 title: Just the Docs
 description: A Jekyll theme for documentation
-# baseurl: "/pySynphasor" #  the subpath of your site, e.g. /blog
-url: "https://shuvangkardas.com/pySynphasor" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/projects" #  the subpath of your site, e.g. /blog
+url: "https://shuvangkardas.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
