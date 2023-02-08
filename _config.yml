@@ -10,7 +10,7 @@
 # plugins:
 #   - jekyll-default-layout
 
-theme: just-the-docs
+theme: "just-the-docs"
 title: Just the Docs
 description: A Jekyll theme for documentation
 # baseurl: "/pySynphasor" #  the subpath of your site, e.g. /blog
