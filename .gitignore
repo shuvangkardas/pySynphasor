@@ -10,6 +10,8 @@ Gemfile.lock
 node_modules
 .DS_Store
 
+*.ini
+
 # gitignore for python packages
 # Byte-compiled / optimized / DLL files
 __pycache__/
