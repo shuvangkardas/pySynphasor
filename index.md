@@ -2,32 +2,46 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "pySynphasor Index Page"
 permalink: /
 ---
+## pySynphasor
+pySynphasor is a Scapy based python module for analyzing IEEE C37.118 protocol. The module can dissect and assemble synchrophasor packet. Therefore, the module can be utilized for  multiple purposes, such as:
+1. Analyze the security vulnerabilities of IEEE C37.118 protocol 
+2. Designing different types of attack such as FDIA, FCIA, eavesdropping, fuzz testing on the IEEE C37.118 protocol. 
+3. Developing custom PMU and PDC application is also possible for specific purposes. 
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+>This project is a part of research project [Scalable Cyber-Physical Testbed for Cybersecurity Evaluation of Synchrophasors in Power Systems](https://arxiv.org/abs/2207.12610)
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+The detailed documentation and example is found  in the project website  **[shuvangkardas.com/pySynphasor](https://shuvangkardas.com/pySynphasor/)**
 
-More specifically, the created site:
+## Quick Start Guide
+Install pySynphasor Library using the following command
+```python
+pip install pySynphasor
+```
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Then start using the library by importing as follows: 
+```python
+from pySynphasor.synphasor import *
+```
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## How to cite the paper
+S. C. Das and T. Vu, “Scalable Cyber-Physical Testbed for Cybersecurity Evaluation of Synchrophasors in Power Systems,” _arXiv preprint arXiv:2207.12610_, 2022.
 
-To get started with creating a site, just click "[use this template]"!
+## How to contribute
+- Please check TODO.md to find out where you can help us.
+- Fork this repo.
+- Create new branch: git checkout -b fixing-stupid-bug
+- Commit changes: git commit -m 'There you go! Fixed the  stupid bug.'
+- Push changes to the branch: git push origin fixing-your-stupid-bug
+- Submit pull request.
 
-----
+## Credits
+- [Shuvangkar Das](https://www.linkedin.com/in/shuvangkar/) - Research Assistant
+- [Dr. Tuyen Vu](https://scholar.google.com/citations?user=xdlXvLUAAAAJ&hl=en) - Project Supervisor
+ 
+## License
+MIT
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
