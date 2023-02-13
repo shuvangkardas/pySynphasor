@@ -9,6 +9,8 @@ pySynphasor is a Scapy based python module for analyzing IEEE C37.118 protocol. 
 
 The detailed documentation and example is found  in the project website  **[shuvangkardas.com/pySynphasor](https://shuvangkardas.com/pySynphasor/)**
 
+The pypi link of the project: [https://pypi.org/project/pySynphasor](https://pypi.org/project/pySynphasor/)
+
 ## Quick Start Guide
 Install pySynphasor Library using the following command
 ```python
