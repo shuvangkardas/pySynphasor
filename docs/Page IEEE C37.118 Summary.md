@@ -20,7 +20,7 @@ Four message types are defined here: data, configuration, header, and command.
 - **Header** information is human readable descriptive information sent from the PMU/PDC.
 
 ## A Communication Scenario
-[Pasted image 20230207173914.png](Pasted image 20230207173914.png)
+![IEEE C37.118 Communication Scenario](./attachments/Pasted image 20230207173914.png)
 
 
 ![[Pasted image 20230207173914.png]]
