@@ -24,7 +24,9 @@ from pySynphasor.synphasor import *
 
 
 ## How to cite the paper
-S. C. Das and T. Vu, “Scalable Cyber-Physical Testbed for Cybersecurity Evaluation of Synchrophasors in Power Systems,” _arXiv preprint arXiv:2207.12610_, 2022.
+1. S. C. Das, T. Vu, H. Ginn, and K. Schoder, "Implementation of IEEE C37. 118 Packet Manipulation Tool, pySynphasor for Power System Security Evaluation," in 2023 IEEE Electric Ship Technologies Symposium (ESTS), 2023, pp. 542-548.
+
+2. S. C. Das and T. Vu, “Scalable Cyber-Physical Testbed for Cybersecurity Evaluation of Synchrophasors in Power Systems,” _arXiv preprint arXiv:2207.12610_, 2022.
 
 ## How to contribute
 - Please check TODO.md to find out where you can help us.
